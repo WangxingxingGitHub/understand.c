@@ -1,0 +1,11 @@
+enum Sex
+{
+	MALE,
+	FEMALE,
+	SECRET,
+};
+int main()
+{
+	enum Sex s = FEMALE;
+	return 0;
+}
