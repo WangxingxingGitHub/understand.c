@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+typedef struct Book   //创建结构体类型
+{
+	char name[20];
+	int price;
+}Book;
+
+void print(Book* ps)   //打印函数调用
+{
+	printf("名字 = %s\n",(*ps).name);
+	printf("价格 = %d元\n",(*ps).price);
+
+	printf("名字 = %s\n",ps->name);
+	printf("价格 = %d元\n",ps->price);
+}
+
+int main()
+{
+	Book b1 = {"c语言程序设计",55};
+	//printf("名字 = %s\n",b1.name);
+	//printf("价格 = %d元\n",b1.price);
+	print(&b1);   //打印函数
+	return 0;
+}
