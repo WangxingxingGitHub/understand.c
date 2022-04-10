@@ -1,4 +1,4 @@
-//                                                           初始选择语句
+//                                                            初识选择语句
 #include<stdio.h>
 int main()
 {
@@ -11,9 +11,9 @@ int main()
 		printf("回家卖红薯\n");
 	return 0;
 }
+//-----------------------------------------------------------
 
-
-//                                                           初始循环语句
+//                                                            初识循环语句
 #include<stdio.h>
 int main()
 {
@@ -26,10 +26,10 @@ int main()
 	printf("找到好offer\n");
 	return 0;
 }
+//-----------------------------------------------------------
 
-
-//                                                           初始函数
-#include<stdio.h>
+//                                                            初识函数
+#include<stdio.h> 
 int Add(int x,int y)
 {
 	int z = x+y;
@@ -46,9 +46,9 @@ int main()
 	printf("sum = %d",sum);
 	return 0;
 }
+//-----------------------------------------------------------
 
-
-//                                                           初始数组
+//                                                            初识数组
 #include<stdio.h>
 int main()
 {
