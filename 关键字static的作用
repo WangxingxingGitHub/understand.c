@@ -1,4 +1,4 @@
-//static修饰局部变量改变其生命周期
+//                                                           static修饰局部变量改变其生命周期
 #include<stdio.h>
 void test()
 {
@@ -20,7 +20,7 @@ int main()
 }
 
 
-//static修饰全局变量改变其作用域
+//                                                           static修饰全局变量改变其作用域
 //       add.c
 //int g_val = 2020;
 static int g_val = 2020;
@@ -36,7 +36,7 @@ int main()
 
 
 
-//static修饰函数改变链接属性
+//                                                           static修饰函数改变链接属性
 //       add.c
 int Add(int x,int y)
 //static int Add(int x,int y)
