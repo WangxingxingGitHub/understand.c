@@ -1,4 +1,4 @@
-//#define定义常量
+//                                                           #define定义常量
 #define Max 100
 int main()
 {
@@ -6,7 +6,7 @@ int main()
 	return 0;
 }
 
-//#define定义宏
+//                                                           #define定义宏
 #include<stdio.h>
 #define Max(X,Y) (X>Y?X:Y)
 int main()
