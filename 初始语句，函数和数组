@@ -1,4 +1,4 @@
-//        初始选择语句
+//                                                           初始选择语句
 #include<stdio.h>
 int main()
 {
@@ -12,7 +12,8 @@ int main()
 	return 0;
 }
 
-//       初始循环语句
+
+//                                                           初始循环语句
 #include<stdio.h>
 int main()
 {
@@ -26,7 +27,8 @@ int main()
 	return 0;
 }
 
-//        初始函数
+
+//                                                           初始函数
 #include<stdio.h>
 int Add(int x,int y)
 {
@@ -45,7 +47,8 @@ int main()
 	return 0;
 }
 
-//       初始数组
+
+//                                                           初始数组
 #include<stdio.h>
 int main()
 {
