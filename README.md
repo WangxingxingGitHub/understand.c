@@ -1,2 +1,2 @@
 # practice.c
-练习
+初始c语言
